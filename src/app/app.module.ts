@@ -8,6 +8,7 @@ import { SellersComponent } from './modules/sellers/sellers.component';
 import { CustomersComponent } from './modules/customers/customers.component';
 import { OrdersComponent } from './modules/orders/orders.component';
 import { BaseComponent } from './shared/base/base.component';
+import { RegisterComponent } from './modules/register/register.component';
 
 const appRoutes: Routes = [
   {path:'login', component:LoginComponent}
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
     SellersComponent,
     CustomersComponent,
     OrdersComponent,
-    BaseComponent
+    BaseComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
