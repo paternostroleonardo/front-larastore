@@ -9,6 +9,7 @@ import { CustomersComponent } from './modules/customers/customers.component';
 import { OrdersComponent } from './modules/orders/orders.component';
 import { BaseComponent } from './shared/base/base.component';
 import { RegisterComponent } from './modules/register/register.component';
+import { ProductsComponent } from './modules/products/products.component';
 
 const appRoutes: Routes = [
   {path:'login', component:LoginComponent}
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     CustomersComponent,
     OrdersComponent,
     BaseComponent,
-    RegisterComponent
+    RegisterComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
